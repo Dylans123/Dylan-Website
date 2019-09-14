@@ -3,6 +3,7 @@ import dylan from '../assets/dylan-image.jpg';
 import linkedin from '../assets/linkedin-logo.svg';
 import email from '../assets/envelope.svg';
 import resume from '../assets/file.svg';
+import pdf from '../assets/resume.pdf';
 
 class Header extends React.Component {
     render() {
@@ -20,13 +21,13 @@ class Header extends React.Component {
                 <div className="mt-4" style={{fontSize: '50px', fontWeight: 'bold', textAlign: 'center', color: '#BDABE5'}}>
                     Hey, I'm Dylan Skelly.
                 </div>
-                <div style={{fontSize: '40px', textAlign: 'center', color: '#BDABE5'}}>
+                <div style={{fontSize: '40px', width: '85%', textAlign: 'center', color: '#BDABE5'}}>
                     Glad you're here!
                 </div>
-                <div className="row text-center mt-4">
+                <div className="row text-center my-4">
                     <div className="col">
                         <div className="btn">
-                            <a href="">
+                            <a href={pdf} target="_blank" download="Dylan Skelly Resume.pdf">
                                 <img src={resume} style={{width: '50px', height: '50px'}}/>
                             </a>
                         </div>
@@ -44,7 +45,6 @@ class Header extends React.Component {
                                 <img src={linkedin} style={{width: '50px', height: '50px'}}/>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>

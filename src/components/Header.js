@@ -19,7 +19,7 @@ class Header extends React.Component {
                 <div>
                     <img src={dylan} className="mainImg" />
                 </div>
-                <div className="mt-4" style={{fontSize: '60px', width: '95%', fontWeight: 'bold', textAlign: 'center', color: '#BDABE5'}}>
+                <div className="mt-5" style={{fontSize: '70px', width: '95%', fontWeight: 'bold', textAlign: 'center', color: '#BDABE5'}}>
                     Hey, I'm Dylan Skelly.
                 </div>
                 <div style={{fontSize: '50px', width: '95%', fontWeight: 'bold', textAlign: 'center', color: '#BDABE5'}}>

@@ -9,8 +9,8 @@
 }
 
 .mainImg {
-  height: 350px;
-  width: 225px;
+  height: 400px;
+  width: 250px;
   border: 10px solid black;
   overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -18,10 +18,20 @@
   animation: float 6s ease-in-out infinite;
 }
 
+.btn-img {
+	width: 70px;
+	height: 70px;
+}
+
 @media screen and (max-width: 480px) {
 	.mainImg {
 		margin-top: 45px;
 	}	
+
+	.btn-img {
+		width: 25%;
+		height: 25%;
+	}
 }
 
 @keyframes float {

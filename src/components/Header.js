@@ -17,7 +17,7 @@ class Header extends React.Component {
                 alignItems: 'center'
                 }}>
                 <div>
-                    <img src={dylan} className="mainImg" />
+                    <img src={dylan} alt="Dylan" className="mainImg" />
                 </div>
                 <div className="mt-5" style={{fontSize: '70px', width: '95%', fontWeight: 'bold', textAlign: 'center', color: '#BDABE5'}}>
                     Hey, I'm Dylan Skelly.
@@ -28,29 +28,29 @@ class Header extends React.Component {
                 <div className="row text-center my-4">
                     <div className="col-sm-12 col-md">
                         <div className="btn">
-                            <a href={pdf} target="_blank" download="Dylan Skelly Resume.pdf">
-                                <img className="btn-img" title="resume" alt-text="resume" src={resume}/>
+                            <a href={pdf} target="_blank" rel="noopener noreferrer" download="Dylan-Skelly-Resume.pdf">
+                                <img className="btn-img" title="resume" alt="resume" src={resume}/>
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md">
                         <div className="btn">
                             <a href="mailto: dylanskelly@knights.ucf.edu">
-                                <img className="btn-img" title="email" alt-text="email" src={email}/>
+                                <img className="btn-img" title="email" alt="email" src={email}/>
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md">
                         <div className="btn">
                             <a href="https://github.com/Dylans123">
-                                <img className="btn-img" title="github" alt-text="github" src={github}/>
+                                <img className="btn-img" title="github" alt="github" src={github}/>
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md" onClick="www.linkedin.com/in/dylan-skelly">
                         <div className="btn">
                             <a href="https://www.linkedin.com/in/dylan-skelly">
-                                <img className="btn-img" title="linkedin" alt-text="linkedin" src={linkedin}/>
+                                <img className="btn-img" title="linkedin" alt="linkedin" src={linkedin}/>
                             </a>
                         </div>
                     </div>

@@ -26,13 +26,13 @@ class Header extends React.Component {
                     Glad you're here!
                 </div>
                 <div className="row text-center my-4">
-                    <div className="col-sm-12 col-md">
+                    {/* <div className="col-sm-12 col-md">
                         <div className="btn">
                             <a href={pdf} target="_blank" rel="noopener noreferrer" download="Dylan-Skelly-Resume.pdf">
                                 <img className="btn-img" title="resume" alt="resume" src={resume}/>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-sm-12 col-md">
                         <div className="btn">
                             <a href="mailto: dylanskelly@knights.ucf.edu">
